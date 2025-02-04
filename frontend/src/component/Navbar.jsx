@@ -1,7 +1,6 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 
-// Importing necessary libraries
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { Disclosure } from "@headlessui/react";
@@ -10,7 +9,6 @@ import eCom from "../assets/eCom.png";
 import AuthSection from "./AuthSection";
 import { Link } from "react-router-dom";
 
-// Navbar pagination
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Products", href: "/product", current: false },
@@ -24,7 +22,6 @@ function classNames(...classes) {
 }
 
 const Navbar = () => {
-  // Authenticating user
   const { isAuthenticated, loginWithRedirect, logout, user } = useAuth0();
 
   const { isEmpty, totalItems } = useCart();
@@ -110,6 +107,8 @@ const Navbar = () => {
                 </div>
               </div>
 
+
+              
               <Disclosure.Panel className="md:hidden ">
                 <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
                   {navigation.map((item) => (
@@ -140,5 +139,8 @@ const Navbar = () => {
     </>
   );
 };
+
+
+
 
 export default Navbar;
