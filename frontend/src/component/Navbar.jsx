@@ -46,7 +46,7 @@ const Navbar = () => {
                               alt="eCom brand logo"
                               className="ml-1 mr-2 w-6"
                             />
-                            eCom
+                            CadCart
                           </p>
                         </div>
                       </Link>
