@@ -13,7 +13,7 @@ const About = () => {
             <p className="text-gray-700 text-lg mb-6 leading-relaxed">
               <span className="font-semibold text-gray-800">Our Story</span>
               <br />
-              At <span className="font-semibold text-indigo-600">eCom</span>, we’re
+              At <span className="font-semibold text-indigo-600">CadNCart</span>, we’re
               passionate about delivering an exceptional online shopping
               experience to our customers. Our journey began with a simple
               goal – to bring you a diverse and curated selection of products,
