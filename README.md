@@ -65,7 +65,7 @@ Endpoint: https://dummyjson.com/products/search?q={query}&category={category}&pr
 Links
 GitHub Profile: Amarjeet113
 Deployed Website: Advanced Product Catalog
-Installation
+Installation 
 Clone the repository:
 
 bash
