@@ -37,7 +37,7 @@ export default function Checkout() {
       const requestBody = { products };
   
       // Make POST request to updateStock endpoint
-      const response = await fetch("http://localhost:5000/api/products/update-stock", {
+      const response = await fetch("https://cadncartbackend.vercel.app/api/products/update-stock", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
