@@ -71,7 +71,7 @@ const Product = () => {
       const productResponse = await fetch(`https://dummyjson.com/products/${id}`);
       const product = await productResponse.json();
 
-      const purchasedResponse = await fetch(`http://localhost:5000/api/products/${id}`);
+      const purchasedResponse = await fetch(`https://cadncartbackend.vercel.app/api/products/${id}`);
       const purchasedData = await purchasedResponse.json();
 
       const originalStock = product.stock;
